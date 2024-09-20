@@ -1,37 +1,17 @@
 {
-  "name": "swcify",
-  "description": "SWC browserify transform",
-  "version": "1.0.1",
-  "author": "Dmitry Yvanov <dfcreative@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/swc-project/swcify",
-  "engines": {
-    "node": ">=6.9.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/swc-project/swcify.git"
-  },
-  "bugs": {
-    "url": "https://github.com/swc-project/swcify/issues"
-  },
-  "peerDependencies": {
-    "@swc/core": "^1.0.25"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "@swc/core": "^1.0.28",
-    "browserify": "^16.2.3",
-    "convert-source-map": "^1.5.1",
-    "cross-spawn": "^6.0.5",
-    "lodash.zipobject": "^4.1.3",
-    "tape": "^4.10.1"
-  },
-  "scripts": {
-    "test": "tape test/*.js"
-  },
-  "dependencies": {
-    "inline-source-map-comment": "^1.0.5",
-    "source-map-to-comment": "^1.1.0"
-  }
+	"dependencies": {
+		"inline-source-map-comment": "^1.0.5",
+		"source-map-to-comment": "^1.1.0"
+	},
+	"description": "SWC browserify transform",
+	"devDependencies": {
+		"@swc/core": "^1.0.28",
+		"browserify": "^16.2.3",
+		"convert-source-map": "^1.5.1",
+		"cross-spawn": "^6.0.5",
+		"lodash.zipobject": "^4.1.3",
+		"tape": "^4.10.1"
+	},
+	"name": "swcify",
+	"scripts": {}
 }
