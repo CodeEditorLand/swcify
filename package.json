@@ -7,7 +7,7 @@
 		"source-map-to-comment": "3.0.0"
 	},
 	"devDependencies": {
-		"@swc/core": "1.7.26",
+		"@swc/core": "1.7.28",
 		"browserify": "17.0.0",
 		"convert-source-map": "2.0.0",
 		"cross-spawn": "7.0.3",
